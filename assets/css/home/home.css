@@ -1,0 +1,383 @@
+.hero { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  font-size: 18px;
+  padding-left: 20px;
+  width: 100%;
+  height: 629px;
+  background-image: url("/assets/img/home/banner-home-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*--Sobre nós--*/
+
+.sobre-nos {
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imagem-sobre {
+  width: 100%;
+}
+
+.subtitulo-sobre {
+  color: #2c3e50; /* azul grafite */
+  font-family: "Open Sans", sans-serif;
+}
+
+.texto-sobre {
+  color: #7f8c8d; /* cinza moderno */
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.itens-sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*--Serviços--*/
+
+.servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  padding-left: 20px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/assets/img/home/banner-servicos-mobile.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.texto-servico {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #34495e; /* cinza azulado */
+}
+
+/*--Depoimentos--*/
+
+.depoimentos {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ecf0f1; /* cinza claro */
+}
+
+.container-depoimentos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.conteudo-depoimentos {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.texto-nome {
+  color: #1a3d7c; /* azul marinho moderno */
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.data {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #2980b9; /* azul médio */
+}
+
+.texto-depoimento {
+  width: 95%;
+  color: #2c3e50; /* azul grafite */
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 29px;
+}
+
+/*--Funcionalidades--*/
+
+.funcionalidades {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    #1a3d7c, /* azul marinho */
+    #2980b9   /* azul médio */
+  );
+  padding: 20px 20px 0 20px;
+}
+
+.container-funcionalidades {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.info-item {
+  text-align: left;
+}
+
+.titulo-info {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.texto-info {
+  font-family: "Open Sans", sans-serif;
+  color: #dfe6e9; /* cinza claro */
+  font-size: 12px;
+  margin-top: 5px;
+  width: 75%;
+}
+
+.smartphone-mobile {
+  display: flex;
+  align-items: end;
+  & img {
+    width: 100%;
+  }
+}
+
+.smartphone-pc {
+  display: none;
+}
+
+/*--Entre em contato--*/
+
+.contato {
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ecf0f1; /* cinza claro */
+}
+
+.itens-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imagem-contato {
+  width: 100%;
+}
+
+.subtitulo-contato {
+  color: #2980b9; /* azul médio */
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: 30px;
+}
+
+.texto-contato {
+  width: 80%;
+  color: #34495e; /* cinza azulado */
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/*--Entre em contato--*/
+
+@media screen and (min-width: 768px) {
+  .sobre-nos,
+  .hero,
+  .servicos,
+  .contato,
+  .depoimentos {
+    padding: 40px;
+  }
+
+  .funcionalidades {
+    padding: 40px 40px 0 40px;
+  }
+
+  .container-imagem-sobre {
+    width: 60%;
+    align-self: center;
+  }
+
+  .imagem-contato {
+    width: 100%;
+  }
+
+  .container-imagem-contato {
+    width: 60%;
+    align-self: center;
+  }
+
+  .imagem-sobre {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .icone-menu {
+    display: none;
+  }
+  .logo-mobile {
+    display: none;
+  }
+
+  .hero {
+    padding-left: 60px;
+    background-image: url("/assets/img/home/banner-home.png");
+
+    & a {
+      background-color: #2980b9; /* botão azul médio */
+      color: #ffffff;
+    }
+  }
+
+  .titulo-principal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: #1a3d7c;
+  }
+
+  .sobre-nos {
+    padding: 120px 60px;
+    flex-direction: row-reverse;
+  }
+
+  .container-imagem-sobre {
+    width: 30%;
+  }
+
+  .itens-sobre {
+    width: 70%;
+  }
+
+  .texto-sobre {
+    width: 493;
+    height: 134;
+    opacity: 1;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: #7f8c8d; /* cinza moderno */
+  }
+
+  .titulo-secundario {
+    font-size: 40px;
+    color: #2c3e50;
+  }
+
+  .servicos {
+    padding-left: 60px;
+    background-image: url("/assets/img/home/banner-servicos.jpg");
+  }
+
+  .texto-servico {
+    font-size: 14px;
+    width: 40%;
+    color: #34495e;
+  }
+
+  .depoimentos {
+    align-items: start;
+    padding: 120px 60px;
+  }
+
+  .texto-depoimento {
+    text-align: left;
+  }
+
+  .container-depoimentos {
+    flex-direction: row;
+  }
+
+  .conteudo-depoimentos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .item-depoimento {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .data,
+  .texto-depoimento {
+    text-align: left;
+  }
+
+  .funcionalidades {
+    flex-direction: column;
+  }
+
+  .conteudo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-funcionalidades {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .conteudo-func {
+    display: flex;
+  }
+
+  .smartphone-mobile {
+    display: none;
+    align-items: end;
+  }
+
+  .smartphone-pc {
+    display: flex;
+    align-items: end;
+    & img {
+      width: 100%;
+    }
+  }
+
+  .contato {
+    padding: 120px 60px;
+    flex-direction: row;
+    gap: 120px;
+  }
+
+  .itens-contato {
+    gap: 40px;
+  }
+
+  .container-imagem-contato {
+    width: 40%;
+  }
+  .itens-contato {
+    width: 60%;
+  }
+}
