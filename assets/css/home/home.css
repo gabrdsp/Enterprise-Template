@@ -66,7 +66,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 30px;
-  color: #34495e; /* cinza azulado */
+  color: #ffa51f; /* cinza azulado */
 }
 
 /*--Depoimentos--*/
@@ -246,7 +246,7 @@
 
   .hero {
     padding-left: 60px;
-    background-image: url("/assets/img/home/banner-home.png");
+    background-image: url("/assets/img/banner-home.png");
 
     & a {
       background-color: #2980b9; /* botão azul médio */
@@ -257,7 +257,7 @@
   .titulo-principal {
     font-family: "Montserrat", sans-serif;
     font-size: 48px;
-    color: #1a3d7c;
+    color: #ffffff;
   }
 
   .sobre-nos {
@@ -290,15 +290,21 @@
     color: #2c3e50;
   }
 
+  .titulo-features {
+    font-size: 40px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
   .servicos {
     padding-left: 60px;
-    background-image: url("/assets/img/home/banner-servicos.jpg");
+    background-image: url("/assets/img/banner-servicos.png");
   }
 
   .texto-servico {
     font-size: 14px;
     width: 40%;
-    color: #34495e;
+    color: white;
   }
 
   .depoimentos {
