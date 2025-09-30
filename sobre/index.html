@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/common/style.css">
+  <link rel="stylesheet" href="/assets/css/about/about.css">
+  <link rel="stylesheet" href="/assets/css/common/header.css">
+  <link rel="stylesheet" href="/assets/css/common/footer.css">
+  <title>Sobre nós</title>
+  <style>
+    html {
+      scrollbar-width: thin;
+      scrollbar-color: #FF8E6E #f1f1f1;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="/assets/img/home/logo-lorem-ipsum.png" alt="Logo header">
+    <div class="menu">
+      <div class="icone-menu" onclick="toggleMenu()">
+        <img class="escolher" src="/assets/img/home/svg/burguer.svg" alt="Menu de escolha">
+      </div>
+
+      <nav class="links-menu">
+        <a href="/index.html">Home</a>
+        <a href="/sobre/index.html">About us</a>
+        <a href="#servicos">Services</a>
+        <a href="/contato/index.html">Contact</a>
+      </nav>
+    </div>
+    <img class="logo-mobile" src="/assets/img/home/svg/logo-lorem-ipsum.svg" alt="Logo mobile">
+  </header>
+  <main>
+
+    <section id="sobre" class="sobre-nos">
+      <h1 class="titulo-principal">About Us</h1>
+      <p class="texto">Hi, we're Lorem Ipsum. <br>Our mission is to develop markup text and visual identity.</p>
+    </section>
+
+    <section class="pessoal">
+      <div class="textos-pessoal">
+        <h3 class="titulo-principal titulo-pessoal">Our team</h3>
+        <p class="descricao">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam.</p>
+      </div>
+      <div class="container-pessoal">
+        <div class="conteudo-pessoal">
+          <img class="imagem-pessoal" src="/assets/img/about/ellen.png" alt="Foto de perfil">
+          <p class="texto nome-pessoal">Mary Margaret</p>
+          <p class="texto texto-pessoal">Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit. Ut fuga
+            <br>delectus aperiam.
+          </p>
+        </div>
+
+        <div class="conteudo-pessoal">
+          <img class="imagem-pessoal" src="/assets/img/about/mattew.png" alt="Foto de perfil">
+          <p class="texto nome-pessoal">David Nolan</p>
+          <p class="texto texto-pessoal">Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit. Ut fuga
+            <br>delectus aperiam.
+          </p>
+        </div>
+
+        <div class="conteudo-pessoal">
+          <img class="imagem-pessoal" src="/assets/img/about/peter.png" alt="Foto de perfil">
+          <p class="texto nome-pessoal">Killian Jones</p>
+          <p class="texto texto-pessoal">Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit. Ut fuga
+            <br>delectus aperiam.
+          </p>
+        </div>
+
+        <div class="conteudo-pessoal">
+          <img class="imagem-pessoal" src="/assets/img/about/diana.png" alt="Foto de perfil">
+          <p class="texto nome-pessoal">Lana Mills</p>
+          <p class="texto texto-pessoal">Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit. Ut fuga
+            <br>delectus aperiam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="icones">
+      <div class="container-icones">
+        <div class="conteudo-icones">
+          <img src="/assets/img/about/svg/missao.svg" alt="Ícone">
+          <h3 class="titulo-principal titulo-icones">Mission</h3>
+        </div>
+        <p class="texto texto-icones">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam
+          molestiae magni optio asperiores esse.</p>
+      </div>
+
+      <div class="container-icones">
+        <div class="conteudo-icones">
+          <img src="/assets/img/about/svg/visao.svg" alt="Ícone">
+          <h3 class="titulo-principal titulo-icones">Vision</h3>
+        </div>
+        <p class="texto texto-icones">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam
+          molestiae magni optio asperiores esse.</p>
+      </div>
+
+      <div class="container-icones">
+        <div class="conteudo-icones">
+          <img src="/assets/img/about/svg/valores.svg" alt="Ícone">
+          <h3 class="titulo-principal titulo-icones">Values</h3>
+        </div>
+        <p class="texto texto-icones">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam
+          molestiae magni optio asperiores esse.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logos">
+        <img class="logo-rodape" src="/assets/img/home/logo-lorem-ipsum.png" alt="Logo rodapé">
+        <img class="logo-empresa" src="/assets/img/home/svg/logo-crescer.png" alt="Logo da empresa">
+      </div>
+      <div class="textos">
+        <nav class="links-rodape">
+          <a href="#inicio">Home</a>
+          <a href="#sobre">About Us</a>
+          <a href="#servicos">Services</a>
+          <a href="#contato">Contact</a>
+        </nav>
+        <p>Copyright ©. All rights reserved to Lorem Ipsum.</p>
+      </div>
+    </footer>
+  </main>
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.links-menu');
+      menu.classList.toggle('open');
+    }
+  </script>
+</body>
+
+</html>
